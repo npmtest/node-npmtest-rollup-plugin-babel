@@ -1,6 +1,6 @@
 # npmtest-rollup-plugin-babel
 
-#### test coverage for  [rollup-plugin-babel (v2.7.1)](https://github.com/rollup/rollup-plugin-babel)  [![npm package](https://img.shields.io/npm/v/npmtest-rollup-plugin-babel.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rollup-plugin-babel) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rollup-plugin-babel.svg)](https://travis-ci.org/npmtest/node-npmtest-rollup-plugin-babel)
+#### basic test coverage for  [rollup-plugin-babel (v2.7.1)](https://github.com/rollup/rollup-plugin-babel)  [![npm package](https://img.shields.io/npm/v/npmtest-rollup-plugin-babel.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rollup-plugin-babel) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rollup-plugin-babel.svg)](https://travis-ci.org/npmtest/node-npmtest-rollup-plugin-babel)
 
 #### Seamless integration between Rollup and Babel.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-rollup-plugin-babel/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-rollup-plugin-babel/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rollup-plugin-babel/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rollup-plugin-babel/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rollup-plugin-babel/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rollup-plugin-babel/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-rollup-plugin-babel/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-rollup-plugin-babel/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rollup-plugin-babel/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rollup-plugin-babel/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-rollup-plugin-babel/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rollup-plugin-babel/build/coverage.html/index.html)
 
@@ -116,7 +116,8 @@
         "pretest": "npm run build",
         "test": "mocha"
     },
-    "version": "2.7.1"
+    "version": "2.7.1",
+    "bin": {}
 }
 ```
 
